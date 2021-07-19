@@ -1,0 +1,40 @@
+// User-registration
+POST http://localhost:3000/api/user/user-register
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "firstName" : "Love",
+    "lastName" : "Tyagi",
+    "email" : "lovetyagi17061998@gmail.com",
+    "password" : "love@123",
+    "phone" : "9876543201",
+    "address" : "ATS-CHD",
+    "city" : "Chandigarh",
+    "state" : "UT",
+    "country" : "India",
+    "zip" : "140400"
+}
+
+###
+
+// User-Login
+
+POST http://localhost:3000/api/user/user-login
+Content-Type: application/json
+
+{
+    "email" : "lovetyagi17061998@gmail.com",
+    "password" : "love@123"
+}
+
+####
+
+# PUT http://localhost:3000/api/user/update-password
+# Content-Type: application/json
+
+# {
+#     "email" : "hima@gmail.com",
+#     "password" : "Hima@1234"
+# }
+

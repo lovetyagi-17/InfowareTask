@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/user/admin-login
+Content-Type: application/json
+
+{
+    "email" : "love@gmail.com",
+    "password" : "Hima@123"
+}

@@ -1,0 +1,21 @@
+// Add-product
+POST http://localhost:3000/api/products/add-product
+Content-Type: application/json
+
+{
+    "productName" : "Choclate",
+    "price" : 20,
+    "description" : "Patanjali",
+    "quantity" : 5
+}
+
+####
+
+GET http://localhost:3000/api/products/get-all-products
+Content-Type: application/json
+
+###
+
+// Get-Category-WithId
+GET   http://localhost:3000/api/products/get-one-product/60910dc07f54b390067721ab
+Content-Type: application/json

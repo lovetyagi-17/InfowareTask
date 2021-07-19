@@ -1,0 +1,27 @@
+// Add-cart
+POST http://localhost:3000/api/shopping/create-cart
+Content-Type: application/json
+
+{
+    "userId" : "60911c0e941f7b9c9322d358"
+}
+###
+
+// Add-cart
+POST http://localhost:3000/api/shopping/add-product/60911c0e941f7b9c9322d358
+Content-Type: application/json
+
+{
+    "productId" : "60910dc07f54b390067721ab",
+    "productName" : "Coffee",
+    "productPrice" : 150
+}
+###
+
+// GEt-all
+POST http://localhost:3000/api/shopping/get-all-products
+Content-Type: application/json
+
+{
+    "cartId" : "60911c8704b41fa37cce613a"
+}
