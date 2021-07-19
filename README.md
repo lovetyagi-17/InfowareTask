@@ -4,7 +4,7 @@
     
 # Clone the ropo into you Computer.
   1. npm install - for node module
-  2. For running APi's connect it with DataVase.
+  2. For running APi's connect it with Database.
   3. nodemon app.js to run the Api's.
   
  - For testing Already a existing folder is there with name of 'Postman'.
